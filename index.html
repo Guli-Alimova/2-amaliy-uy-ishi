@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body{
+        display: flex;
+        justify-content: center;
+        margin:50px;
+    
+    }
+    .box1{
+        width: 400px;
+        height: 200px;
+        background-image: linear-gradient(to right top, #6b8ed1, #5f81cd, #5474c9, #4a67c4, #435abe, #4353bc, #444bb9, #4643b6, #4d40b7, #543cb8, #5b38b8, #6234b8);
+        border-radius:10px;
+        text-align: center;
+        padding:20px;
+        position: relative;
+        color:white;
+       
+    }
+   
+    .box2{
+        width: 300px;
+        /* padding:50px; */
+        height: 300px;
+        border-radius:10px;
+        text-align: center;
+        padding:20px;
+        background-color: white;
+        position: absolute;
+        bottom:20px;
+        right:470px;
+        box-shadow: 5px 5px rgb(184, 183, 183) ;
+        
+        
+
+    }
+    p{
+        width: 300px;
+        margin:0 auto;
+    }
+    img{
+        width: 100px;
+        height: 100px;
+        border-radius: 50px;
+       
+    }
+    button{
+        display: block;
+        margin: 0 auto;
+        border-radius: 50px;
+        padding:5px 14px;
+        border:1px solid rgb(153, 146, 146);
+        background-color: white;
+    }
+    .send{
+        display: inline-block;
+        margin-top:20px;
+        background-image: linear-gradient(to right top, #6b8ed1, #5f81cd, #5474c9, #4a67c4, #435abe, #4353bc, #444bb9, #4643b6, #4d40b7, #543cb8, #5b38b8, #6234b8);
+        padding:10px 16px;
+        border-radius:10px;
+        text-decoration: none;
+        color:white
+    }
+    h3{
+        margin:5px;
+    }
+</style>
+<body>
+
+    <div class="container">
+        <div class="box1">
+            <h1>Hi George</h1>
+            <p>you can contact us whenever you need help or just cuirous about something </p>
+        </div>
+        <div class="box2">
+            <h2>Start charting</h2>
+            <img src="./img/images (1).jpeg" id = "image" alt="">
+            <h3 id = "title">Esseie walton</h3>
+            <button>Active</button>
+            <a class="send" href="#">Send Massage</a>
+
+        </div>
+    </div>
+    <script src="./style.js"></script>
+</body>
+</html>
